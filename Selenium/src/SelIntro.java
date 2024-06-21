@@ -8,6 +8,7 @@ public class SelIntro {
 
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
+		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
 		driver.close();
 		
